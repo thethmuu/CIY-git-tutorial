@@ -1,0 +1,94 @@
+/* reset browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 780px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5em auto;
+}
+
+.container .form-container {
+  width: 60%;
+  padding: 3em 2em;
+}
+
+.container img {
+  max-width: 100%;
+}
+
+form .title {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+form .form-control {
+  margin-top: 2em;
+  display: flex;
+  gap: 0.5em;
+}
+
+.form-control .form-input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form small {
+  color: #444;
+  margin-top: 6px;
+}
+
+.buttons {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  color: #1563c9;
+}
+
+.buttons button {
+  padding: 10px 1.25em;
+  border-radius: 6px;
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #1562c6;
+}
+
+.img-container {
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container .description {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
